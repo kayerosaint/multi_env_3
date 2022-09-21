@@ -1,3 +1,5 @@
+#=======================Domain-to-ALB===========================#
+
 locals {
   env_domain = "${var.env}.${var.domain}"
 }
